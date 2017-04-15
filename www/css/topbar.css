@@ -1,0 +1,67 @@
+body
+{
+background-color:#ddd;
+margin:0px;
+font-family:'Open Sans',sans-serif;
+}
+a
+{
+text-decoration:none;
+color:inherit;
+}
+::-webkit-scrollbar{width:5px;}
+::-webkit-scrollbar-track{background-color:#fff;}
+::-webkit-scrollbar-thumb{background:#0CF;}
+::-webkit-scrollbar-thumb:window-inactive {background:#00B8FF;}
+div#topbar
+{
+width:100%;
+height:50px;
+float:left;
+position:fixed;
+top:0px;
+left:0px;
+background-color:#fff;
+border-bottom:5px solid #0CF;
+}
+div#topbarinr
+{
+width:960px;
+height:50px;
+margin:0px auto;
+}
+a#topbarlogo
+{
+width:200px;
+height:50px;
+float:left;
+background-image:url('http://ramity.ddns.net/img/topbarblack.png');
+background-size:200px 50px;
+}
+div#topbarnav
+{
+width:420px;
+height:50px;
+float:right;
+}
+a.topbarnavitem
+{
+width:105px;
+height:50px;
+float:left;
+line-height:50px;
+font-size:15px;
+float:left;
+color:#000;
+text-align:center;
+cursor:pointer;
+background-color:#fff;
+}
+a.topbarnavitem:hover
+{
+background-color:#eee;
+}
+a.topbarnavitem:active
+{
+color:#0CF;
+}
